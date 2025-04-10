@@ -16,5 +16,6 @@ model = genai.GenerativeModel('gemini-2.5-pro-exp-03-25')
 
 prompt = "Write a python script that generates a random number between 1 and 10."
 response = model.generate_content(prompt)
-print(response.text)
+print(response.text + '\n')
+print('response')
 
